@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header class="flex">
+        <div class="logo">Kavya<span>..</span></div>
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+         
+        </nav>
+      </header>
+      </div>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>Hy! I am</h1>
+          <span class="auto">Kavya Durai</span>
+          <p>
+           I'm currently working on web developing and learning new things.I'm looking to develop skills and knowledge.
+          </p>
+          
+        </div>
+        <div class="main-two">
+          <img src="new.jpeg" alt="" height="auto">
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>My Awesome <br /><span>Projects</span></h1>
+        <p>
+         Iam learning designing websites.And I have designed my own website on quiz.
+         
+        </p>
+        
+        
+        
+        <div class="projects-div flex div-3">
+          <img src="2022-08-13.png" alt="" height="500px" />
+          <h3>Quiz App</h3>
+          <p>
+           Quiz application  is a collection of different quizes 
+           
+          </p>
+          <div class="btns">
+            <a href="https://kavyadurai.github.io/quiz/">live preview</a>
+          </div>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>Kavya Durai</span>
+          <p>
+            Currently studying in University College of Engineering(BIT campus),Tiruchirappalli.I'm self learner and programmer.I did my schooling at Kandasamy Matric Hr Sec School,Ganapathipalayam.
+            Iam self learner and optimstic person passionate in web designing 
+          </p>
+          <div class="btns">
+            <a href="https://drive.google.com/file/d/1-cteaPgsnl4jLjni4DUWTdoCjpbdPjM7/view?usp=drivesdk">Download CV</a>
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="srirangam.jpg" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="myskill" id="skills">
+        <div class="skill">
+        <h1>  <span>Skills</span></h1>
+        <p>HTML</p>
+        <div class="container">
+            <div class="skills html">90%</div>
+        </div>
+        <p>CSS</p>
+        <div class="container">
+            <div class="skills css">70%</div>
+        </div>
+        <p>PYTHON</p>
+        <div class="container">
+            <div class="skills python">60%</div>
+        </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h1>Let Us <span>Talk!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text" placeholder="Name.." />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">@copywrite 2022 Kavya</div>
+        <div class="social">
+          <a href="https://instagram.com/kavya._.dk_?igshid=YmMyMTA2M2Y=" class="fa-brands fa-instagram"></a>
+          <a href="https://m.facebook.com/100027873560838/"  class="fa-brands fa-facebook"></a>
+          <a href="https://www.linkedin.com/mwlite/in/kavya-durai-ba4bb622b" class=" fa-brands fa-linkedin"></a>
+        </div>
+      </footer>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["Kavya Durai", "Student","Learner","Web developer" ],
+        typeSpeed: 60,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
